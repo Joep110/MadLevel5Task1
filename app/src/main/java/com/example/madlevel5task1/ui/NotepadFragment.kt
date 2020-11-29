@@ -19,7 +19,7 @@ class NotepadFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add_note, container, false)
+        return inflater.inflate(R.layout.fragment_notepad, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
